@@ -76,27 +76,27 @@ jobs:
           plugin_leetcode_sections: solved, skills, recent
           plugin_leetcode_limit_skills: 9
           config_order: base.header, isocalendar, languages, leetcode
-#
-#      - name: right-side
-#        uses: lowlighter/metrics@latest
-#        with:
-#          output_action: gist
-#          committer_gist: 1a27afbbf731b20785dd33ac2ea7e3fc
-#          # token
-#          token: ${{ secrets.METRICS_TOKEN }}
-#          # options
-#          config_timezone: Asia/Shanghai
-#          template: classic
-#          base: ""
-#          plugin_achievements: yes
-#          plugin_achievements_limit: 8
-#          plugin_topics: yes
-#          plugin_topics_mode: icons
-#          plugin_topics_limit: 0
-#          plugin_habits: yes
-#          plugin_habits_facts: yes
-#          plugin_habits_charts: no
-#          plugin_rss: yes
-#          plugin_rss_source: https://yzr-mint.github.io/feed.xml
-#          plugin_rss_limit: 3
-#          config_order: achievements, habits, rss, topics
+
+      - name: right-side
+        uses: lowlighter/metrics@latest
+        with:
+          output_action: gist
+          committer_gist: 1a27afbbf731b20785dd33ac2ea7e3fc
+          # token
+          token: ${{ secrets.METRICS_TOKEN }}
+          # options
+          config_timezone: Asia/Shanghai
+          template: classic
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_limit: 8
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          plugin_rss: no
+          plugin_rss_source: https://yzr-mint.github.io/feed.xml
+          plugin_rss_limit: 3
+          config_order: achievements, habits, topics#, rss
