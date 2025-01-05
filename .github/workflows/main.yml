@@ -51,7 +51,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           output_action: gist
-          committer_gist: bfafe3313180650e1053fb12bc47e906
+          committer_gist: 3c9f9bd1df040052bfb917115f1b7aba
           # token
           token: ${{ secrets.METRICS_TOKEN }}
           # options
@@ -81,7 +81,7 @@ jobs:
 #        uses: lowlighter/metrics@latest
 #        with:
 #          output_action: gist
-#          committer_gist: e63f070d1317b9139f7adfb8e53789fa
+#          committer_gist: 1a27afbbf731b20785dd33ac2ea7e3fc
 #          # token
 #          token: ${{ secrets.METRICS_TOKEN }}
 #          # options
