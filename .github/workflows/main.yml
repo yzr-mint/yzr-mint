@@ -72,7 +72,7 @@ jobs:
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
           plugin_leetcode: yes
-          plugin_leetcode_user: 」
+          plugin_leetcode_user: yzr-mint
           plugin_leetcode_sections: solved, skills, recent
           plugin_leetcode_limit_skills: 9
           config_order: base.header, isocalendar, languages, leetcode
